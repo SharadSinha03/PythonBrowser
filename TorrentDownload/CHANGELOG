@@ -1,0 +1,54 @@
+// $Id: CHANGELOG 408 2013-01-03 21:19:18Z mcdougall $
+
+0.4 (18-jan-2013)
+features:
+. update notification (#37)
+
+bug fixes:
+. "resuming session" on status bar never goes away (#39)
+. no tooltips on the toolbar (#40)
+
+0.3 (3-jan-2013)
+features:
+. updated to boost 1.52.0 and libtorrent 0.16.6
+. ported to windows xp (#24)
+. log dialog in the help menu (#29)
+. clipboard content (if valid) is pasted when adding a torrent (#10)
+. added documentation on extensions development
+. drag and drop torrent files
+. seed ratio is now in percentage in the options
+
+bug fixes:
+. queuing was mostly broken (#7)
+. torrents at 99% were displayed as 100% (#15)
+. torrents were sometimes not sorted properly (#8 #9)
+. max seed ratio wasn't respected (#20)
+. priority context menu wasn't working
+. files bigger than 4gb didn't have the right size on x86 linux
+. stalled torrents weren't shown in the inactive category
+. paused torrents were resumed when restarting the program
+. more minor fixes
+
+0.2.3 (16-dec-2012)
+. extensions could hang baretorrent
+. torrents without metadata weren't remembered
+. several bug fixes
+
+0.2.2 (9-dec-2012)
+. internal: major changes on how strings and paths are handled
+
+0.2.1 (4-dec-2012)
+. fixed about dialog
+
+0.2 (3-dec-2012)
+. wrote most of the BUILDING readme
+. extension paths are now set automatically and with --lib, PYTHONPATH
+  is not needed anymore
+. fixed various issues with the layout on gtk and osx
+. extensions: loaded from the user directory, install/uninstall/update
+. release 0.1 of httpd extension
+
+0.1 (19-nov-2012)
+. initial release
+
+EOF

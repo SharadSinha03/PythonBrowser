@@ -1,0 +1,247 @@
+QPushButton#BACK {
+                                    qproperty-icon: url(./icon/back.png) ;
+                                    qproperty-iconSize: 34px;
+                                    border-top: 5px transparent;
+                                    border-bottom: 5px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#FORWARD {
+                                    qproperty-icon: url(./icon/forward.png);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#RELOAD {
+                                    qproperty-icon: url(./icon/reload.png);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#URL {
+                                    qproperty-icon: url(./icon/url.ico);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#BOOKMARK {
+                                    qproperty-icon: url(./icon/bookmark.png);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+QPushButton#HISTORY {
+                                    qproperty-icon: url(./icon/history.png);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#PROXY {
+                                    qproperty-icon: url(./icon/proxy.png);
+                                    qproperty-iconSize: 34px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QPushButton#DOWNLOAD {
+                                    qproperty-icon: url(./icon/download.ico);
+                                    qproperty-iconSize: 28px;
+                                    border-top: 3px transparent;
+                                    border-bottom: 3px transparent;
+                                    border-right: 10px transparent;
+                                    border-left: 10px transparent;
+}
+
+QLineEdit#HTTP_LINK {
+            background-color : white;
+            color : black;
+}
+
+QToolButton#maximize {
+                                    qproperty-icon: url(./icon/max.png);
+                                    qproperty-iconSize: 30px;
+                                    border-top: 1px transparent;
+                                    border-bottom: 1px transparent;
+                                    border-right: 1px transparent;
+                                    border-left: 1px transparent;
+									background-color : #E1F4F3;
+}
+
+QPushButton#DownloadFolder {
+                                    qproperty-icon: url(./icon/Download.ico);
+                                    qproperty-iconSize: 33px;
+                                    border-top: 1px transparent;
+                                    border-bottom: 1px transparent;
+                                    border-right: 1px transparent;
+                                    border-left: 1px transparent;
+									background-color : #E1F4F3;
+}
+
+QPushButton#close {
+                                    qproperty-icon: url(./icon/close.png);
+                                    qproperty-iconSize: 25px;
+                                    border-top: 1px transparent;
+                                    border-bottom: 1px transparent;
+                                    border-right: 1px transparent;
+                                    border-left: 1px transparent;
+									background-color : #E1F4F3;
+}
+
+QToolButton#new_tab {
+                                    qproperty-icon: url(./icon/tab.png);
+                                    qproperty-iconSize: 30px;
+                                    border-top: 1px transparent;
+                                    border-bottom: 1px transparent;
+                                    border-right: 1px transparent;
+                                    border-left: 1px transparent;
+
+}
+
+
+QPushButton#HISTORY::menu {
+        background-color : black;
+        color : red;
+        font : bold;
+}
+
+QWidget {
+        background-color : #EBECF0;
+        color : black;
+
+}
+
+QMessageBox {
+        background-color : #888989;
+        color : white;
+        font : bold;
+        font-size: 15px;
+        font-family: "Times New Roman",  sans-serif;
+
+}
+
+
+QPushButton:hover
+{
+   background-color:#BECDCD
+
+}
+
+
+QWidget#Dialog,QGroupBox,QPushButton#ActivateProxy,QPushButton#SaveProxy {
+        background-color : #888989;
+        color : white;
+        font : bold;
+        font-size: 15px;
+        font-family: "Times New Roman",  sans-serif;
+}
+
+QLabel#CurrentProxy,QComboBox#ProxyList,QLineEdit#NewProxy {
+        background-color : #888989;
+        color : white;
+        font : bold;
+        font-size: 15px;
+        font-family: "Times New Roman",  sans-serif;
+}
+
+QMenu {
+           background-color: #888989;
+           color: white;
+           font-family: "Times New Roman",  sans-serif;
+            font-size: 13px;
+            border: 1px solid white;
+            menu-scrollable: 1;
+}
+
+QMenu::item {
+            background-color: #888989;
+            color: white;
+}
+
+QMenu::item:selected {
+           background-color: #DBE4E4;
+           color: #BB9D9D;
+}
+
+QWidget#TitleBarWidget {
+            background-color : #E1F4F3;
+            color:white;
+            font:8px bold;
+            font-weight:bold;
+            border-radius: 0px;
+            height: 9px;
+}
+
+QWidget#DownloadManagerLayout {
+            background-color : #E1F4F3;
+            color:white;
+            font:8px bold;
+            font-weight:bold;
+            border-radius: 0px;
+            height: 9px;
+}
+
+QLabel#TitleBarName {
+            background-color : #E1F4F3;
+}
+
+QWidget#DownloadPage {
+            background-color : red;
+            color:	black;
+			border: 1px solid red;
+            font:8px bold;
+            font-weight:bold;
+            border-radius: 0px;
+            height: 9px;
+}
+
+
+
+QProgressBar{
+    border: 2px solid grey;
+    border-radius: 8px;
+    text-align: center;
+	font : bold;
+}
+
+QProgressBar::chunk {
+    background-color: lightblue;
+    width: 5px;
+    margin: 1px;
+}
+
+QProgressBar{
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-align: center
+}
+
+QProgressBar::chunk {
+    background-color: red;
+    width: 10px;
+    margin: 1px;
+}
+
+
+
+
+QScrollBar#MainWindow {
+    background-color: black;
+    color: red;
+}
